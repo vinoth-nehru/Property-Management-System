@@ -1,0 +1,51 @@
+.complaints {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .complaints h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .complaints ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .complaints li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .complaints li strong {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .complaints li br {
+    display: none; /* Hide line breaks for better formatting */
+  }
+  
+  .complaints li p {
+    margin: 0;
+  }
+  
+  .complaints li .resolved {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .complaints li .unresolved {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .complaints li .cost {
+    color: #333;
+  }
+  

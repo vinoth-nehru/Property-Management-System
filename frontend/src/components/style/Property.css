@@ -1,0 +1,53 @@
+/* ViewProperty.css */
+.view-property {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .view-property h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .property-item {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .property-item p {
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+  
+  /* AddProperty.css */
+  .add-property-form {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-property-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .add-property-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-property-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-property-form button:hover {
+    background-color: #0056b3;
+  }
+  

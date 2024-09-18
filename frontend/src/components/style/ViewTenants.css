@@ -1,0 +1,24 @@
+.view-tenants {
+    padding: 20px;
+  }
+  
+  .view-tenants h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .view-tenants table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .view-tenants th, .view-tenants td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .view-tenants th {
+    background-color: #f2f2f2;
+  }
+  

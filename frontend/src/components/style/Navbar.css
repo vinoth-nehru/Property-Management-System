@@ -1,0 +1,40 @@
+/* Navbar container styling */
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  /* Unordered list styling */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* List item styling */
+  nav ul li {
+    margin: 0;
+  }
+  
+  /* Link styling */
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Link hover styling */
+  nav ul li a:hover {
+    background-color: #555;
+    color: #ddd;
+  }
+  
+  /* Active link styling */
+  nav ul li a.active {
+    background-color: #444;
+  }
+  
